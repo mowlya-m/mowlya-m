@@ -3,7 +3,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/header-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/header-light.svg">
-  <img alt="Mowlya Shree Manjunatha, Data and Machine Learning Engineer" src="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/header-dark.svg" width="100%">
+  <img alt="Hello hellooooo I'm Mowlya, Data and Machine Learning Engineer" src="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/header-dark.svg" width="100%">
 </picture>
 
 <br><br>
@@ -11,26 +11,14 @@
 <img src="https://komarev.com/ghpvc/?username=mowlya-m&style=flat-square&color=22d3ee&label=profile+views">
 <img src="https://img.shields.io/badge/Melbourne-Australia-0d1117?style=flat-square&labelColor=22d3ee&color=0d1117">
 <img src="https://img.shields.io/badge/status-open%20to%20new%20opportunities-0d1117?style=flat-square&labelColor=3fb950&color=0d1117">
-
 </div>
-
 <picture>
   <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/divider-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/divider-light.svg">
   <img alt="" src="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/divider-dark.svg" width="100%">
 </picture>
 
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/intro-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/intro-light.svg">
-  <img alt="Introduction card for Mowlya Shree Manjunatha" src="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/intro-dark.svg" width="100%">
-</picture>
-
-</div>
-
-## `01` &nbsp; Languages and Tools
+## Languages and Tools
 
 ### Languages
 
@@ -116,7 +104,7 @@
 </tr>
 </table>
 
-## `02` &nbsp; GitHub Stats
+## GitHub Stats
 
 <div align="center">
 
@@ -124,35 +112,6 @@
 ![](https://github.com/mowlya-m/github-stats/raw/generated/languages.svg#gh-dark-mode-only)
 ![](https://github.com/mowlya-m/github-stats/raw/generated/overview.svg#gh-light-mode-only)
 ![](https://github.com/mowlya-m/github-stats/raw/generated/languages.svg#gh-light-mode-only)
-
-</div>
-
-## `03` &nbsp; Credentials
-
-<div align="center">
-
-<table>
-<tr>
-<td align="center" width="110"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="40" height="40"></td>
-<td><b>Certified Machine Learning Engineer, Associate</b> &nbsp;<code>MLA-C01</code><br><sub>Amazon Web Services</sub></td>
-</tr>
-<tr>
-<td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="40" height="40"></td>
-<td><b>Certified Cloud Practitioner</b> &nbsp;<code>CLF-C02</code><br><sub>Amazon Web Services</sub></td>
-</tr>
-<tr>
-<td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" width="40" height="40"></td>
-<td><b>Power BI Data Analyst Associate</b> &nbsp;<code>PL-300</code><br><sub>Microsoft</sub></td>
-</tr>
-<tr>
-<td align="center"><img src="https://img.shields.io/badge/IBM-1F70C1?style=flat-square" height="26"></td>
-<td><b>RAG and Agentic AI</b><br><sub>IBM</sub></td>
-</tr>
-<tr>
-<td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" width="40" height="40"></td>
-<td><b>Master of Data Science</b><br><sub>Monash University, Melbourne</sub></td>
-</tr>
-</table>
 
 </div>
 
@@ -181,16 +140,6 @@ I reply to every message, whether it is a role, a collaboration, or a question a
 &nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://github.com/mowlya-m?tab=repositories" title="Repositories">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="42" height="42" alt="GitHub"></a>
-
-<br><br>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/quote-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/quote-light.svg">
-  <img alt="Quote from Albert Einstein about curiosity" src="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/quote-dark.svg" width="100%">
-</picture>
-
-<br>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:22d3ee,50:a78bfa,100:0d1117&height=120&section=footer" width="100%">
 
