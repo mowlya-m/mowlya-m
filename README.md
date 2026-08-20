@@ -24,12 +24,12 @@
 
 <table align="center">
 <tr>
-<td align="center" width="105"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="44" height="44"><br><sub><b>Python</b></sub></td>
-<td align="center" width="105"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="44" height="44"><br><sub><b>SQL</b></sub></td>
-<td align="center" width="105"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="44" height="44"><br><sub><b>TypeScript</b></sub></td>
-<td align="center" width="105"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="44" height="44"><br><sub><b>JavaScript</b></sub></td>
-<td align="center" width="105"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" width="44" height="44"><br><sub><b>R</b></sub></td>
-<td align="center" width="105"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="44" height="44"><br><sub><b>Bash</b></sub></td>
+<td align="center" width="70"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="30" height="30"><br><sub><b>Python</b></sub></td>
+<td align="center" width="70"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="30" height="30"><br><sub><b>SQL</b></sub></td>
+<td align="center" width="70"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="30" height="30"><br><sub><b>TypeScript</b></sub></td>
+<td align="center" width="70"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="30" height="30"><br><sub><b>JavaScript</b></sub></td>
+<td align="center" width="70"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" width="30" height="30"><br><sub><b>R</b></sub></td>
+<td align="center" width="70"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="30" height="30"><br><sub><b>Bash</b></sub></td>
 </tr>
 </table>
 
