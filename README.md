@@ -2,7 +2,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/hero-light.svg">
-  <img alt="Hi there, I am Mowlya" src="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/hero-dark.svg" width="100%" height="220" style="display:block;width:100%;">
+  <img alt="Hi there, I am Mowlya" src="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/hero-dark.svg" width="100%">
 </picture>
 <br>
 <img src="https://komarev.com/ghpvc/?username=mowlya-m&style=flat-square&color=22d3ee&label=profile+views">
@@ -26,7 +26,7 @@
   <img alt="Most used languages" src="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/langs-dark.svg" width="300">
 </picture>
 
-<br> <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="32" height="32" align="left" style="margin-right:8px;"> <i><b>I love conneting with different people</b>, so if you want to say <b>hi</b>, I'll be happy to meet you more! :)</i>
+<br> <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="32" height="32" align="left" style="margin-right:8px;"> <i><b>I love connecting with different people</b>, so if you want to say <b>hi</b>, I'll be happy to meet you more! :)</i>
 
 <div align="center">
 
