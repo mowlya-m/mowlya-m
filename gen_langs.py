@@ -23,7 +23,7 @@ COLORS = {
 }
 FALLBACK = ["#22d3ee", "#a78bfa", "#3fb950", "#f778ba", "#e3b341", "#58a6ff"]
 
-W, PAD, BAR_Y, BAR_H, ROW_H, COL_W = 452, 20, 50, 9, 22, 206
+W, PAD, BAR_Y, BAR_H, ROW_H, COL_W = 400, 16, 42, 8, 19, 184
 
 
 def fetch():
@@ -61,7 +61,7 @@ def color(name, i):
 def build(theme, langs):
     t = THEMES[theme]
     rows = (len(langs) + 1) // 2
-    H = BAR_Y + BAR_H + 22 + rows * ROW_H + 10
+    H = BAR_Y + BAR_H + 18 + rows * ROW_H + 8
     inner = W - PAD * 2
     o = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" '
          f'role="img" aria-label="Most used languages">']
@@ -84,10 +84,10 @@ def build(theme, langs):
     for i, (name, pct) in enumerate(langs):
         col, row = i % 2, i // 2
         x = PAD + col * COL_W
-        y = BAR_Y + BAR_H + 36 + row * ROW_H
-        o.append(f'<circle cx="{x+5}" cy="{y-4}" r="4.6" fill="{color(name,i)}"/>')
+        y = BAR_Y + BAR_H + 30 + row * ROW_H
+        o.append(f'<circle cx="{x+5}" cy="{y-4}" r="4" fill="{color(name,i)}"/>')
         o.append(f'<text x="{x+17}" y="{y}" font-family="Segoe UI,Helvetica,Arial,sans-serif" '
-                 f'font-size="11.5" fill="{t["body"]}">{esc(name)}</text>')
+                 f'font-size="10.5" fill="{t["body"]}">{esc(name)}</text>')
         px = x + COL_W - 26
         for f in range(FRAMES + 1):
             p = f / FRAMES
@@ -97,7 +97,7 @@ def build(theme, langs):
             if f < FRAMES:
                 sets += f'<set attributeName="opacity" to="0" begin="{b+step:.3f}s"/>'
             o.append(f'<text x="{px}" y="{y}" text-anchor="end" font-family="ui-monospace,SFMono-Regular,'
-                     f'Menlo,monospace" font-size="11" fill="{t["mute"]}" '
+                     f'Menlo,monospace" font-size="10" fill="{t["mute"]}" '
                      f'opacity="{1 if f==FRAMES else 0}">{v:.2f}%{sets}</text>')
     o.append('</svg>')
     return "\n".join(o)

@@ -1,8 +1,8 @@
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/hero-dark.svg?v=10">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/hero-light.svg?v=10">
-  <img alt="Hi there, I am Mowlya" src="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/hero-dark.svg?v=10" width="100%">
+  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/hero-dark.svg?v=11">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/hero-light.svg?v=11">
+  <img alt="Hi there, I am Mowlya" src="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/hero-dark.svg?v=11" width="100%">
 </picture>
 <br>
 <img src="https://komarev.com/ghpvc/?username=mowlya-m&style=flat-square&color=22d3ee&label=profile+views">
@@ -30,8 +30,8 @@
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/mowlya" title="LinkedIn"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="40" height="40" alt="LinkedIn" title="LinkedIn"></a>
-&nbsp;&nbsp;&nbsp;<a href="mailto:mowlyamanjunath@gmail.com" title="Email"><img src="https://cdn.simpleicons.org/gmail/EA4335" width="40" height="40" alt="Email" title="Email"></a>
-&nbsp;&nbsp;&nbsp;<a href="https://x.com/Mowlya3" title="X"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/x/ffffff"><source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/x/000000"><img src="https://cdn.simpleicons.org/x/ffffff" width="40" height="40" alt="X" title="X"></picture></a>
+<a href="https://www.linkedin.com/in/mowlya" title="LinkedIn"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="30" height="30" alt="LinkedIn" title="LinkedIn"></a>
+&nbsp;&nbsp;&nbsp;<a href="mailto:mowlyamanjunath@gmail.com" title="Email"><img src="https://cdn.simpleicons.org/gmail/EA4335" width="30" height="30" alt="Email" title="Email"></a>
+&nbsp;&nbsp;&nbsp;<a href="https://x.com/Mowlya3" title="X"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/x/ffffff"><source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/x/000000"><img src="https://cdn.simpleicons.org/x/ffffff" width="30" height="30" alt="X" title="X"></picture></a>
 
 </div>
