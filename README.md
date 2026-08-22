@@ -26,10 +26,4 @@
   <img alt="Most used languages" src="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/langs-dark.svg" width="452">
 </picture>
 
-<br> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Microsoft-Teams-Animated-Emojis/master/Emojis/People/Busts%20in%20Silhouette.png" width="32" height="32" align="left" style="margin-right:8px;"> <i><b>I am always up for a good conversation</b>, so if you want to say <b>hi</b>, I'll be happy to meet you more! :)</i>
-
-<br clear="left"><br>
-
-<a href="https://www.linkedin.com/in/mowlya" title="LinkedIn"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>  <a href="mailto:mowlyamanjunath@gmail.com" title="Email"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-
-<picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/divider-dark.svg"> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/divider-light.svg"> <img alt="" src="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/divider-dark.svg" width="100%"> </picture>
+<br> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Microsoft-Teams-Animated-Emojis/master/Emojis/People/People%20Holding%20Hands.png" width="32" height="32" align="left" style="margin-right:8px;"> <i><b>I love conneting with different people</b>, so if you want to say <b>hi</b>, I'll be happy to meet you more! :)</i>
