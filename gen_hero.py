@@ -3,10 +3,10 @@ import math, os, random
 THEMES = {
     "dark":  dict(bg1="#0d1117", bg2="#11161d", body="#c9d1d9", mute="#7d8590",
                   faint="#586069", ring="#21262d", a1="#22d3ee", a2="#a78bfa",
-                  node="#8b949e", edge="#8b949e"),
+                  node="#b6c2cf", edge="#c9d6e2"),
     "light": dict(bg1="#ffffff", bg2="#f6f8fa", body="#1f2328", mute="#57606a",
                   faint="#8c959f", ring="#d8dee4", a1="#0891b2", a2="#7c3aed",
-                  node="#6e7781", edge="#8c959f"),
+                  node="#8c959f", edge="#aab4bf"),
 }
 
 W, H = 1000, 234
