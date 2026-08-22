@@ -134,7 +134,7 @@ def build(theme):
     o.append(f'<circle cx="110" cy="286" r="185" fill="url(#gB)">'
              f'<animate attributeName="r" values="200;168;200" dur="11s" repeatCount="indefinite"/></circle>')
     o.append(constellation(t))
-    o.append(f'<rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="16" fill="none" stroke="{t["ring"]}"/>')
+    o.append(f'<rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="16" fill="none" stroke="none"/>')
     o.append(hand(112, 128))
 
     for i, ln in enumerate(LINES):
