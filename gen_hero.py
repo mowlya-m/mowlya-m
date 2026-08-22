@@ -11,9 +11,9 @@ THEMES = {
 
 W, H = 1000, 300
 CYCLE = 16.0
-DRIFT = 24.0
-NODES = 30
-KEYS = 5
+DRIFT = 17.0
+NODES = 34
+KEYS = 8
 LINK = 170
 MONO = "ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
 
@@ -24,8 +24,8 @@ LINES = [
          x=196, y=192, size=16, weight="400", fill="BODY", start=3.0, dur=2.2),
     dict(txt='"I have no special talent. I am only passionately curious."',
          x=196, y=228, size=15, weight="400", fill="MUTE", start=5.8, dur=2.6),
-    dict(txt="- Albert Einstein", x=196, y=254, size=12, weight="400",
-         fill="FAINT", start=8.6, dur=0.9),
+    dict(txt="- Albert Einstein", x=728, y=254, size=12, weight="400",
+         fill="FAINT", start=8.6, dur=0.9, anchor="end"),
 ]
 
 
@@ -80,6 +80,8 @@ def constellation(t):
                  f'opacity="{op}">'
                  f'<animate attributeName="cx" values="{vx}" dur="{DRIFT}s" repeatCount="indefinite"/>'
                  f'<animate attributeName="cy" values="{vy}" dur="{DRIFT}s" repeatCount="indefinite"/>'
+                 f'<animate attributeName="r" values="{r:.1f};{r*1.75:.1f};{r:.1f}" '
+                 f'dur="{2.6 + (i % 5) * 0.55:.2f}s" repeatCount="indefinite"/>'
                  f'</circle>')
     o.append('</g>')
     return "".join(o)
@@ -120,21 +122,21 @@ def build(theme):
              f'<stop offset="100%" stop-color="{t["a1"]}" stop-opacity="0"/></radialGradient>')
     for i, ln in enumerate(LINES):
         wpx = w_of(ln["txt"], ln["size"]) + 6
+        cx0 = ln["x"] - wpx if ln.get("anchor") == "end" else ln["x"]
         s, d = ln["start"] / CYCLE, ln["dur"] / CYCLE
-        o.append(f'<clipPath id="clip{i}"><rect x="{ln["x"]}" y="{ln["y"]-ln["size"]}" '
+        o.append(f'<clipPath id="clip{i}"><rect x="{cx0}" y="{ln["y"]-ln["size"]}" '
                  f'height="{ln["size"]*1.5}" width="0">'
                  f'<animate attributeName="width" values="0;0;{wpx:.0f};{wpx:.0f};0;0" '
                  f'keyTimes="0;{s:.4f};{s+d:.4f};0.94;0.965;1" dur="{CYCLE}s" '
                  f'repeatCount="indefinite"/></rect></clipPath>')
     o.append('</defs>')
-
     o.append(f'<rect width="{W}" height="{H}" rx="16" fill="url(#bg)"/>')
     o.append(f'<circle cx="860" cy="52" r="200" fill="url(#gA)">'
              f'<animate attributeName="r" values="175;215;175" dur="11s" repeatCount="indefinite"/></circle>')
     o.append(f'<circle cx="110" cy="286" r="185" fill="url(#gB)">'
              f'<animate attributeName="r" values="200;168;200" dur="11s" repeatCount="indefinite"/></circle>')
     o.append(constellation(t))
-    o.append(f'<rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="16" fill="none" stroke="none"/>')
+    o.append(f'<rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="16" fill="none" stroke="{t["ring"]}"/>')
     o.append(hand(112, 128))
 
     for i, ln in enumerate(LINES):
@@ -142,12 +144,14 @@ def build(theme):
                 .replace("MUTE", t["mute"]).replace("FAINT", t["faint"]))
         style = "italic" if i == 2 else "normal"
         sp = ' letter-spacing="1.5"' if i == 3 else ''
+        an = ' text-anchor="end"' if ln.get("anchor") == "end" else ''
         o.append(f'<g clip-path="url(#clip{i})"><text x="{ln["x"]}" y="{ln["y"]}" font-family="{MONO}" '
-                 f'font-size="{ln["size"]}" font-weight="{ln["weight"]}" font-style="{style}"{sp} '
+                 f'font-size="{ln["size"]}" font-weight="{ln["weight"]}" font-style="{style}"{sp}{an} '
                  f'fill="{fill}">{esc(ln["txt"])}</text></g>')
 
-    car = [(l["start"], l["start"] + l["dur"], l["x"], l["y"], l["size"], w_of(l["txt"], l["size"]))
-           for l in LINES]
+    car = [(l["start"], l["start"] + l["dur"],
+            l["x"] - w_of(l["txt"], l["size"]) if l.get("anchor") == "end" else l["x"],
+            l["y"], l["size"], w_of(l["txt"], l["size"])) for l in LINES]
     for idx, (s, e, x, y, size, tw) in enumerate(car):
         hold = 0.999 if idx == len(car) - 1 else (car[idx + 1][0] - 0.25) / CYCLE
         o.append(f'<rect x="{x}" y="{y-size+3}" width="{max(8,size*0.55):.0f}" height="{size*0.95:.0f}" '
@@ -164,4 +168,4 @@ def build(theme):
 os.makedirs("assets", exist_ok=True)
 for n in THEMES:
     open(f"assets/hero-{n}.svg", "w").write(build(n))
-    print("wrote assets/hero-%s.svg" % n)
+    print("wrote assets/hero-%s.svg" % n, os.path.getsize(f"assets/hero-{n}.svg"), "bytes")
