@@ -1,9 +1,9 @@
 import json, os, urllib.request, collections
 
 USER = "mowlya-m"
-TOP = 10
-FRAMES = 16
-COUNT_DUR = 1.9
+TOP = 8
+FRAMES = 14
+COUNT_DUR = 1.7
 EXCLUDE = {"mowlya-m"}
 
 THEMES = {
@@ -23,7 +23,7 @@ COLORS = {
 }
 FALLBACK = ["#22d3ee", "#a78bfa", "#3fb950", "#f778ba", "#e3b341", "#58a6ff"]
 
-W, PAD, BAR_Y, BAR_H, ROW_H, COL_W = 620, 28, 66, 12, 30, 282
+W, PAD, BAR_Y, BAR_H, ROW_H, COL_W = 452, 20, 50, 9, 22, 206
 
 
 def fetch():
@@ -61,12 +61,12 @@ def color(name, i):
 def build(theme, langs):
     t = THEMES[theme]
     rows = (len(langs) + 1) // 2
-    H = BAR_Y + BAR_H + 26 + rows * ROW_H + 14
+    H = BAR_Y + BAR_H + 22 + rows * ROW_H + 10
     inner = W - PAD * 2
     o = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" '
          f'role="img" aria-label="Most used languages">']
-    o.append(f'<rect width="{W}" height="{H}" rx="12" fill="{t["bg"]}" stroke="{t["ring"]}"/>')
-    o.append(f'<text x="{PAD}" y="40" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="18" '
+    o.append(f'<rect width="{W}" height="{H}" rx="10" fill="{t["bg"]}" stroke="{t["ring"]}"/>')
+    o.append(f'<text x="{PAD}" y="31" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="14" '
              f'font-weight="600" fill="{t["title"]}">Most Used Languages</text>')
     o.append(f'<rect x="{PAD}" y="{BAR_Y}" width="{inner}" height="{BAR_H}" rx="{BAR_H/2}" fill="{t["track"]}"/>')
     o.append(f'<clipPath id="barclip"><rect x="{PAD}" y="{BAR_Y}" width="{inner}" height="{BAR_H}" '
@@ -84,11 +84,11 @@ def build(theme, langs):
     for i, (name, pct) in enumerate(langs):
         col, row = i % 2, i // 2
         x = PAD + col * COL_W
-        y = BAR_Y + BAR_H + 46 + row * ROW_H
-        o.append(f'<circle cx="{x+6}" cy="{y-5}" r="6" fill="{color(name,i)}"/>')
-        o.append(f'<text x="{x+22}" y="{y}" font-family="Segoe UI,Helvetica,Arial,sans-serif" '
-                 f'font-size="13.5" fill="{t["body"]}">{esc(name)}</text>')
-        px = x + COL_W - 40
+        y = BAR_Y + BAR_H + 36 + row * ROW_H
+        o.append(f'<circle cx="{x+5}" cy="{y-4}" r="4.6" fill="{color(name,i)}"/>')
+        o.append(f'<text x="{x+17}" y="{y}" font-family="Segoe UI,Helvetica,Arial,sans-serif" '
+                 f'font-size="11.5" fill="{t["body"]}">{esc(name)}</text>')
+        px = x + COL_W - 26
         for f in range(FRAMES + 1):
             p = f / FRAMES
             v = pct * (1 - (1 - p) ** 2)
@@ -97,7 +97,7 @@ def build(theme, langs):
             if f < FRAMES:
                 sets += f'<set attributeName="opacity" to="0" begin="{b+step:.3f}s"/>'
             o.append(f'<text x="{px}" y="{y}" text-anchor="end" font-family="ui-monospace,SFMono-Regular,'
-                     f'Menlo,monospace" font-size="13" fill="{t["mute"]}" '
+                     f'Menlo,monospace" font-size="11" fill="{t["mute"]}" '
                      f'opacity="{1 if f==FRAMES else 0}">{v:.2f}%{sets}</text>')
     o.append('</svg>')
     return "\n".join(o)

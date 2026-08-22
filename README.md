@@ -58,7 +58,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/langs-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/langs-light.svg">
-  <img alt="Most used languages" src="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/langs-dark.svg" width="620">
+  <img alt="Most used languages" src="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/langs-dark.svg" width="452">
 </picture>
 
 <picture>
@@ -69,18 +69,18 @@
 
 <div align="center">
 
-### Let's Build Something
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/contact-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/contact-light.svg">
+  <img alt="Open to Data and Machine Learning Engineering roles" src="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/contact-dark.svg" width="100%">
+</picture>
 
-I reply to every message, whether it is a role, a collaboration, or a question about a repo.
-
-<a href="https://www.linkedin.com/in/mowlya"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="40" height="40" alt="LinkedIn"></a>
-&nbsp;&nbsp;&nbsp;
-<a href="mailto:mowlyamanjunath@gmail.com"><img src="https://cdn.simpleicons.org/gmail/EA4335" width="40" height="40" alt="Email"></a>
-&nbsp;&nbsp;&nbsp;
-<a href="https://mowlya-portfolio.vercel.app"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg" width="40" height="40" alt="Portfolio"></a>
-&nbsp;&nbsp;&nbsp;
-<a href="https://github.com/mowlya-m?tab=repositories"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40" height="40" alt="GitHub"></a>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:22d3ee,50:a78bfa,100:0d1117&height=110&section=footer" width="100%">
+<a href="https://www.linkedin.com/in/mowlya"><img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2&labelColor=0d1117"></a>
+&nbsp;
+<a href="mailto:mowlyamanjunath@gmail.com"><img src="https://img.shields.io/badge/Email%20me-0d1117?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=0d1117"></a>
+&nbsp;
+<a href="https://mowlya-portfolio.vercel.app"><img src="https://img.shields.io/badge/See%20the%20portfolio-0d1117?style=for-the-badge&logo=vercel&logoColor=ffffff&labelColor=0d1117"></a>
+&nbsp;
+<a href="https://github.com/mowlya-m?tab=repositories"><img src="https://img.shields.io/badge/Browse%20the%20repos-0d1117?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=0d1117"></a>
 
 </div>

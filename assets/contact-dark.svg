@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 214" width="1000" height="214" role="img" aria-label="Available for data and machine learning engineering roles">
+<defs>
+<linearGradient id="cbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0d1117"/><stop offset="60%" stop-color="#11161d"/><stop offset="100%" stop-color="#0d1117"/></linearGradient>
+<linearGradient id="cshine" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#22d3ee"/><stop offset="50%" stop-color="#a78bfa"/><stop offset="100%" stop-color="#22d3ee"/><animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0;-1 0" dur="9s" repeatCount="indefinite"/></linearGradient>
+<pattern id="cdots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1.2" cy="1.2" r="1.2" fill="#1b2430"/></pattern>
+</defs>
+<rect width="1000" height="214" rx="16" fill="url(#cbg)"/>
+<rect width="1000" height="214" rx="16" fill="url(#cdots)" opacity="0.7"/>
+<rect x="0.5" y="0.5" width="999" height="213" rx="16" fill="none" stroke="#21262d"/>
+<rect x="16" y="16" width="4" height="182" rx="2" fill="url(#cshine)"/>
+<circle cx="52" cy="47" r="6" fill="#3fb950"/>
+<circle cx="52" cy="47" r="6" fill="none" stroke="#3fb950" stroke-width="2" opacity="0.9"><animate attributeName="r" values="6;16;16" keyTimes="0;0.7;1" dur="2.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.75;0;0" keyTimes="0;0.7;1" dur="2.4s" repeatCount="indefinite"/></circle>
+<text x="70" y="52" font-family="Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif" font-size="19" font-weight="600" fill="#c9d1d9">Open to Data and Machine Learning Engineering roles</text>
+<text x="70" y="76" font-family="Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif" font-size="14" fill="#8b949e">Pipelines, streaming, MLOps and analytics. Happy to talk about a role, a collaboration or a repo you saw here.</text>
+<rect x="52" y="104" width="292" height="82" rx="10" fill="#161b22" stroke="#21262d"/>
+<rect x="52" y="104" width="3" height="82" rx="1.5" fill="#22d3ee" opacity="0.85"/>
+<text x="72" y="130" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" letter-spacing="2" fill="#6e7681">BASED IN</text>
+<text x="72" y="154" font-family="Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif" font-size="15.5" font-weight="600" fill="#c9d1d9">Melbourne, AU</text>
+<text x="72" y="174" font-family="Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif" font-size="12" fill="#8b949e">open to Sydney and remote</text>
+<rect x="358" y="104" width="292" height="82" rx="10" fill="#161b22" stroke="#21262d"/>
+<rect x="358" y="104" width="3" height="82" rx="1.5" fill="#a78bfa" opacity="0.85"/>
+<text x="378" y="130" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" letter-spacing="2" fill="#6e7681">WORK RIGHTS</text>
+<text x="378" y="154" font-family="Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif" font-size="15.5" font-weight="600" fill="#c9d1d9">Full, no sponsorship</text>
+<text x="378" y="174" font-family="Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif" font-size="12" fill="#8b949e">subclass 485 post study visa</text>
+<rect x="664" y="104" width="292" height="82" rx="10" fill="#161b22" stroke="#21262d"/>
+<rect x="664" y="104" width="3" height="82" rx="1.5" fill="#22d3ee" opacity="0.85"/>
+<text x="684" y="130" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" letter-spacing="2" fill="#6e7681">REPLY TIME</text>
+<text x="684" y="154" font-family="Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif" font-size="15.5" font-weight="600" fill="#c9d1d9">Within 24 hours</text>
+<text x="684" y="174" font-family="Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif" font-size="12" fill="#8b949e">every message, every time</text>
+</svg>
