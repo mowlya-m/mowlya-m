@@ -2,7 +2,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/hero-light.svg">
-  <img alt="Hi there, I am Mowlya" src="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/hero-dark.svg" width="850">
+  <img alt="Hi there, I am Mowlya" src="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/hero-dark.svg" width="700">
 </picture>
 <br><br>
 <img src="https://komarev.com/ghpvc/?username=mowlya-m&style=flat-square&color=22d3ee&label=profile+views">
@@ -13,7 +13,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/divider-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/divider-light.svg">
-  <img alt="" src="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/divider-dark.svg" width="850">
+  <img alt="" src="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/divider-dark.svg" width="700">
 </picture>
 
 ## The Tools Behind My Projects
