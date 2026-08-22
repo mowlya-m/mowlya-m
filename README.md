@@ -3,7 +3,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/header-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/header-light.svg">
-  <img alt="Hello hellooooo I'm Mowlya, Data and Machine Learning Engineer" src="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/header-dark.svg" width="100%">
+  <img alt="Mowlya Shree Manjunatha, Data and Machine Learning Engineer" src="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/header-dark.svg" width="100%">
 </picture>
 
 <img src="https://komarev.com/ghpvc/?username=mowlya-m&style=flat-square&color=22d3ee&label=profile+views">
@@ -20,92 +20,85 @@
 
 <div align="center">
 
-### Languages and Tools
+<sub><b>L A N G U A G E S</b></sub><br>
+<img src="https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=3776AB">
+<img src="https://img.shields.io/badge/SQL-0d1117?style=flat-square&logo=postgresql&logoColor=4169E1">
+<img src="https://img.shields.io/badge/TypeScript-0d1117?style=flat-square&logo=typescript&logoColor=3178C6">
+<img src="https://img.shields.io/badge/JavaScript-0d1117?style=flat-square&logo=javascript&logoColor=F7DF1E">
+<img src="https://img.shields.io/badge/R-0d1117?style=flat-square&logo=r&logoColor=276DC3">
+<img src="https://img.shields.io/badge/Bash-0d1117?style=flat-square&logo=gnubash&logoColor=4EAA25">
 
-<table>
-<tr><th colspan="8">Languages</th></tr>
-<tr>
-<td align="center" width="72"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="26" height="26"><br><sub><b>Python</b></sub></td>
-<td align="center" width="72"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="26" height="26"><br><sub><b>SQL</b></sub></td>
-<td align="center" width="72"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="26" height="26"><br><sub><b>TypeScript</b></sub></td>
-<td align="center" width="72"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="26" height="26"><br><sub><b>JavaScript</b></sub></td>
-<td align="center" width="72"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" width="26" height="26"><br><sub><b>R</b></sub></td>
-<td align="center" width="72"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="26" height="26"><br><sub><b>Bash</b></sub></td>
-<td width="72"></td><td width="72"></td>
-</tr>
-<tr><th colspan="8">Data Engineering</th></tr>
-<tr>
-<td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachespark/apachespark-original.svg" width="26" height="26"><br><sub><b>Spark</b></sub></td>
-<td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg" width="26" height="26"><br><sub><b>Kafka</b></sub></td>
-<td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apacheairflow/apacheairflow-original.svg" width="26" height="26"><br><sub><b>Airflow</b></sub></td>
-<td align="center"><img src="https://cdn.simpleicons.org/databricks/FF3621" width="26" height="26"><br><sub><b>Databricks</b></sub></td>
-<td align="center"><img src="https://cdn.simpleicons.org/snowflake/29B5E8" width="26" height="26"><br><sub><b>Snowflake</b></sub></td>
-<td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="26" height="26"><br><sub><b>pandas</b></sub></td>
-<td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="26" height="26"><br><sub><b>NumPy</b></sub></td>
-<td align="center"><img src="https://cdn.simpleicons.org/dbt/FF694B" width="26" height="26"><br><sub><b>dbt</b></sub></td>
-</tr>
-<tr><th colspan="8">Machine Learning and AI</th></tr>
-<tr>
-<td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" width="26" height="26"><br><sub><b>PyTorch</b></sub></td>
-<td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" width="26" height="26"><br><sub><b>TensorFlow</b></sub></td>
-<td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" width="26" height="26"><br><sub><b>sklearn</b></sub></td>
-<td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" width="26" height="26"><br><sub><b>Jupyter</b></sub></td>
-<td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/anaconda/anaconda-original.svg" width="26" height="26"><br><sub><b>Anaconda</b></sub></td>
-<td align="center"><img src="https://cdn.simpleicons.org/mlflow/0194E2" width="26" height="26"><br><sub><b>MLflow</b></sub></td>
-<td align="center"><img src="https://cdn.simpleicons.org/langchain/1C3C3C" width="26" height="26"><br><sub><b>LangChain</b></sub></td>
-<td align="center"><img src="https://cdn.simpleicons.org/xgboost/337AB7" width="26" height="26"><br><sub><b>XGBoost</b></sub></td>
-</tr>
-<tr><th colspan="8">Cloud and DevOps</th></tr>
-<tr>
-<td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="26" height="26"><br><sub><b>AWS</b></sub></td>
-<td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" width="26" height="26"><br><sub><b>Terraform</b></sub></td>
-<td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="26" height="26"><br><sub><b>Docker</b></sub></td>
-<td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-original.svg" width="26" height="26"><br><sub><b>K8s</b></sub></td>
-<td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg" width="26" height="26"><br><sub><b>Actions</b></sub></td>
-<td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="26" height="26"><br><sub><b>Git</b></sub></td>
-<td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="26" height="26"><br><sub><b>Linux</b></sub></td>
-<td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg" width="26" height="26"><br><sub><b>Grafana</b></sub></td>
-</tr>
-<tr><th colspan="8">Databases</th></tr>
-<tr>
-<td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="26" height="26"><br><sub><b>Postgres</b></sub></td>
-<td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="26" height="26"><br><sub><b>MySQL</b></sub></td>
-<td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="26" height="26"><br><sub><b>MongoDB</b></sub></td>
-<td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" width="26" height="26"><br><sub><b>Redis</b></sub></td>
-<td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/supabase/supabase-original.svg" width="26" height="26"><br><sub><b>Supabase</b></sub></td>
-<td></td><td></td><td></td>
-</tr>
-<tr><th colspan="8">Serving and Visualisation</th></tr>
-<tr>
-<td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" width="26" height="26"><br><sub><b>FastAPI</b></sub></td>
-<td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="26" height="26"><br><sub><b>React</b></sub></td>
-<td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/streamlit/streamlit-original.svg" width="26" height="26"><br><sub><b>Streamlit</b></sub></td>
-<td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/plotly/plotly-original.svg" width="26" height="26"><br><sub><b>Plotly</b></sub></td>
-<td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" width="26" height="26"><br><sub><b>Postman</b></sub></td>
-<td align="center"><img src="https://cdn.simpleicons.org/powerbi/F2C811" width="26" height="26"><br><sub><b>Power BI</b></sub></td>
-<td align="center"><img src="https://cdn.simpleicons.org/tableau/E97627" width="26" height="26"><br><sub><b>Tableau</b></sub></td>
-<td></td>
-</tr>
-</table>
+<br><br>
 
-### GitHub Stats
+<sub><b>D A T A &nbsp; E N G I N E E R I N G</b></sub><br>
+<img src="https://img.shields.io/badge/Spark-0d1117?style=flat-square&logo=apachespark&logoColor=E25A1C">
+<img src="https://img.shields.io/badge/Kafka-0d1117?style=flat-square&logo=apachekafka&logoColor=ffffff">
+<img src="https://img.shields.io/badge/Airflow-0d1117?style=flat-square&logo=apacheairflow&logoColor=017CEE">
+<img src="https://img.shields.io/badge/dbt-0d1117?style=flat-square&logo=dbt&logoColor=FF694B">
+<img src="https://img.shields.io/badge/Databricks-0d1117?style=flat-square&logo=databricks&logoColor=FF3621">
+<img src="https://img.shields.io/badge/Snowflake-0d1117?style=flat-square&logo=snowflake&logoColor=29B5E8">
+<img src="https://img.shields.io/badge/pandas-0d1117?style=flat-square&logo=pandas&logoColor=150458">
+<img src="https://img.shields.io/badge/NumPy-0d1117?style=flat-square&logo=numpy&logoColor=013243">
+
+<br><br>
+
+<sub><b>M A C H I N E &nbsp; L E A R N I N G &nbsp; A N D &nbsp; A I</b></sub><br>
+<img src="https://img.shields.io/badge/PyTorch-0d1117?style=flat-square&logo=pytorch&logoColor=EE4C2C">
+<img src="https://img.shields.io/badge/TensorFlow-0d1117?style=flat-square&logo=tensorflow&logoColor=FF6F00">
+<img src="https://img.shields.io/badge/scikit--learn-0d1117?style=flat-square&logo=scikitlearn&logoColor=F7931E">
+<img src="https://img.shields.io/badge/XGBoost-0d1117?style=flat-square&logo=xgboost&logoColor=337AB7">
+<img src="https://img.shields.io/badge/MLflow-0d1117?style=flat-square&logo=mlflow&logoColor=0194E2">
+<img src="https://img.shields.io/badge/LangChain-0d1117?style=flat-square&logo=langchain&logoColor=ffffff">
+<img src="https://img.shields.io/badge/Jupyter-0d1117?style=flat-square&logo=jupyter&logoColor=F37626">
+
+<br><br>
+
+<sub><b>C L O U D &nbsp; A N D &nbsp; D E V O P S</b></sub><br>
+<img src="https://img.shields.io/badge/AWS-0d1117?style=flat-square&logo=amazonwebservices&logoColor=FF9900">
+<img src="https://img.shields.io/badge/Terraform-0d1117?style=flat-square&logo=terraform&logoColor=7B42BC">
+<img src="https://img.shields.io/badge/Docker-0d1117?style=flat-square&logo=docker&logoColor=2496ED">
+<img src="https://img.shields.io/badge/Kubernetes-0d1117?style=flat-square&logo=kubernetes&logoColor=326CE5">
+<img src="https://img.shields.io/badge/GitHub%20Actions-0d1117?style=flat-square&logo=githubactions&logoColor=2088FF">
+<img src="https://img.shields.io/badge/Git-0d1117?style=flat-square&logo=git&logoColor=F05032">
+<img src="https://img.shields.io/badge/Linux-0d1117?style=flat-square&logo=linux&logoColor=FCC624">
+<img src="https://img.shields.io/badge/Grafana-0d1117?style=flat-square&logo=grafana&logoColor=F46800">
+
+<br><br>
+
+<sub><b>S T O R A G E &nbsp; A N D &nbsp; S E R V I N G</b></sub><br>
+<img src="https://img.shields.io/badge/PostgreSQL-0d1117?style=flat-square&logo=postgresql&logoColor=4169E1">
+<img src="https://img.shields.io/badge/MySQL-0d1117?style=flat-square&logo=mysql&logoColor=4479A1">
+<img src="https://img.shields.io/badge/MongoDB-0d1117?style=flat-square&logo=mongodb&logoColor=47A248">
+<img src="https://img.shields.io/badge/Redis-0d1117?style=flat-square&logo=redis&logoColor=DC382D">
+<img src="https://img.shields.io/badge/Supabase-0d1117?style=flat-square&logo=supabase&logoColor=3FCF8E">
+<img src="https://img.shields.io/badge/FastAPI-0d1117?style=flat-square&logo=fastapi&logoColor=009688">
+<img src="https://img.shields.io/badge/React-0d1117?style=flat-square&logo=react&logoColor=61DAFB">
+
+<br><br>
+
+<sub><b>A N A L Y T I C S</b></sub><br>
+<img src="https://img.shields.io/badge/Power%20BI-0d1117?style=flat-square&logo=powerbi&logoColor=F2C811">
+<img src="https://img.shields.io/badge/Tableau-0d1117?style=flat-square&logo=tableau&logoColor=E97627">
+<img src="https://img.shields.io/badge/Streamlit-0d1117?style=flat-square&logo=streamlit&logoColor=FF4B4B">
+<img src="https://img.shields.io/badge/Plotly-0d1117?style=flat-square&logo=plotly&logoColor=3F4F75">
+<img src="https://img.shields.io/badge/Postman-0d1117?style=flat-square&logo=postman&logoColor=FF6C37">
+
+</div>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="https://github-readme-stats.vercel.app/api?username=mowlya-m&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=22d3ee&icon_color=a78bfa&text_color=c9d1d9">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=mowlya-m&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=ffffff&title_color=0891b2&icon_color=7c3aed&text_color=24292f">
-  <img alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=mowlya-m&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=22d3ee&icon_color=a78bfa&text_color=c9d1d9" height="165">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=mowlya-m&layout=compact&langs_count=8&hide_border=true&bg_color=0d1117&title_color=22d3ee&text_color=c9d1d9">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=mowlya-m&layout=compact&langs_count=8&hide_border=true&bg_color=ffffff&title_color=0891b2&text_color=24292f">
-  <img alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mowlya-m&layout=compact&langs_count=8&hide_border=true&bg_color=0d1117&title_color=22d3ee&text_color=c9d1d9" height="165">
+  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/divider-light.svg">
+  <img alt="" src="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/divider-dark.svg" width="100%">
 </picture>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="https://streak-stats.demolab.com?user=mowlya-m&hide_border=true&background=0d1117&stroke=21262d&ring=22d3ee&fire=a78bfa&currStreakLabel=22d3ee&currStreakNum=c9d1d9&sideNums=c9d1d9&sideLabels=c9d1d9&dates=8b949e">
-  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=mowlya-m&hide_border=true&background=ffffff&stroke=d0d7de&ring=0891b2&fire=7c3aed&currStreakLabel=0891b2&currStreakNum=24292f&sideNums=24292f&sideLabels=24292f&dates=57606a">
-  <img alt="Contribution streak" src="https://streak-stats.demolab.com?user=mowlya-m&hide_border=true&background=0d1117&stroke=21262d&ring=22d3ee&fire=a78bfa&currStreakLabel=22d3ee&currStreakNum=c9d1d9&sideNums=c9d1d9&sideLabels=c9d1d9&dates=8b949e" height="165">
-</picture>
+<div align="center">
+
+<a href="https://github.com/mowlya-m">
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=mowlya-m&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&border_radius=10&bg_color=0d1117&title_color=22d3ee&icon_color=a78bfa&text_color=c9d1d9&cache_seconds=21600" alt="stats">
+</a>
+<a href="https://github.com/mowlya-m?tab=repositories">
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mowlya-m&layout=compact&langs_count=8&hide_border=true&border_radius=10&bg_color=0d1117&title_color=22d3ee&text_color=c9d1d9&cache_seconds=21600" alt="languages">
+</a>
 
 </div>
 
@@ -121,17 +114,10 @@
 
 I reply to every message, whether it is a role, a collaboration, or a question about a repo.
 
-<a href="https://www.linkedin.com/in/mowlya" title="LinkedIn">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="40" height="40" alt="LinkedIn"></a>
-&nbsp;&nbsp;&nbsp;
-<a href="mailto:mowlyamanjunath@gmail.com" title="Email">
-<img src="https://cdn.simpleicons.org/gmail/EA4335" width="40" height="40" alt="Email"></a>
-&nbsp;&nbsp;&nbsp;
-<a href="https://mowlya-portfolio.vercel.app" title="Portfolio">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg" width="40" height="40" alt="Portfolio"></a>
-&nbsp;&nbsp;&nbsp;
-<a href="https://github.com/mowlya-m?tab=repositories" title="Repositories">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40" height="40" alt="GitHub"></a>
+<a href="https://www.linkedin.com/in/mowlya"><img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2"></a>
+<a href="mailto:mowlyamanjunath@gmail.com"><img src="https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=EA4335"></a>
+<a href="https://mowlya-portfolio.vercel.app"><img src="https://img.shields.io/badge/Portfolio-0d1117?style=for-the-badge&logo=vercel&logoColor=ffffff"></a>
+<a href="https://github.com/mowlya-m?tab=repositories"><img src="https://img.shields.io/badge/Repos-0d1117?style=for-the-badge&logo=github&logoColor=ffffff"></a>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:22d3ee,50:a78bfa,100:0d1117&height=110&section=footer" width="100%">
 
