@@ -26,4 +26,4 @@
   <img alt="Most used languages" src="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/langs-dark.svg" width="452">
 </picture>
 
-<br> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Microsoft-Teams-Animated-Emojis/master/Emojis/People/People%20Holding%20Hands.png" width="32" height="32" align="left" style="margin-right:8px;"> <i><b>I love conneting with different people</b>, so if you want to say <b>hi</b>, I'll be happy to meet you more! :)</i>
+<br> <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="32" height="32" align="left" style="margin-right:8px;"> <i><b>I love conneting with different people</b>, so if you want to say <b>hi</b>, I'll be happy to meet you more! :)</i>
