@@ -31,17 +31,3 @@
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/divider-light.svg">
   <img alt="" src="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/divider-dark.svg" width="100%">
 </picture>
-
-<div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/contact-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/contact-light.svg">
-  <img alt="Let's build something" src="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/contact-dark.svg" width="100%">
-</picture>
-</div>
-
-### Reach me at
-
-<a href="mailto:mowlyamanjunath@gmail.com">mowlyamanjunath@gmail.com</a> &nbsp;.&nbsp;
-<a href="https://www.linkedin.com/in/mowlya">linkedin.com/in/mowlya</a> &nbsp;.&nbsp;
-<a href="https://mowlya-portfolio.vercel.app">mowlya-portfolio.vercel.app</a>
