@@ -62,9 +62,7 @@ def constellation(t):
         vy2 = ";".join(f"{v:.1f}" for v in ys[j])
         o.append(f'<line x1="{xs[i][0]:.1f}" y1="{ys[i][0]:.1f}" x2="{xs[j][0]:.1f}" '
                  f'y2="{ys[j][0]:.1f}" stroke="{t["edge"]}" stroke-opacity="{op:.2f}" '
-                 f'stroke-width="1" stroke-dasharray="5 11" stroke-linecap="round">'
-                 f'<animate attributeName="stroke-dashoffset" values="0;-16" dur="{1.8 + (i % 6) * 0.4:.1f}s" '
-                 f'repeatCount="indefinite"/>'
+                 f'stroke-width="1">'
                  f'<animate attributeName="x1" values="{vx1}" dur="{DRIFT}s" repeatCount="indefinite"/>'
                  f'<animate attributeName="y1" values="{vy1}" dur="{DRIFT}s" repeatCount="indefinite"/>'
                  f'<animate attributeName="x2" values="{vx2}" dur="{DRIFT}s" repeatCount="indefinite"/>'
