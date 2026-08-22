@@ -12,9 +12,9 @@ THEMES = {
 W, H = 1000, 234
 CYCLE = 16.0
 DRIFT = 17.0
-NODES = 28
+NODES = 32
 KEYS = 8
-LINK = 150
+LINK = 165
 MONO = "ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
 
 LINES = [
@@ -53,16 +53,16 @@ def constellation(t):
     edges = [(i, j, math.dist(base[i], base[j]))
              for i in range(NODES) for j in range(i + 1, NODES)
              if math.dist(base[i], base[j]) < LINK]
-    o = ['<g opacity="0.55">']
+    o = ['<g opacity="0.9">']
     for i, j, d in edges:
-        op = max(0.06, 0.34 * (1 - d / LINK))
+        op = max(0.14, 0.55 * (1 - d / LINK))
         vx1 = ";".join(f"{v:.1f}" for v in xs[i])
         vy1 = ";".join(f"{v:.1f}" for v in ys[i])
         vx2 = ";".join(f"{v:.1f}" for v in xs[j])
         vy2 = ";".join(f"{v:.1f}" for v in ys[j])
         o.append(f'<line x1="{xs[i][0]:.1f}" y1="{ys[i][0]:.1f}" x2="{xs[j][0]:.1f}" '
                  f'y2="{ys[j][0]:.1f}" stroke="{t["edge"]}" stroke-opacity="{op:.2f}" '
-                 f'stroke-width="1">'
+                 f'stroke-width="1.2">'
                  f'<animate attributeName="x1" values="{vx1}" dur="{DRIFT}s" repeatCount="indefinite"/>'
                  f'<animate attributeName="y1" values="{vy1}" dur="{DRIFT}s" repeatCount="indefinite"/>'
                  f'<animate attributeName="x2" values="{vx2}" dur="{DRIFT}s" repeatCount="indefinite"/>'
@@ -71,7 +71,7 @@ def constellation(t):
     for i in range(NODES):
         r = 2.4 + (i % 4) * 0.7
         c = t["a1"] if i % 5 == 0 else (t["a2"] if i % 7 == 0 else t["node"])
-        op = 0.75 if c != t["node"] else 0.5
+        op = 0.95 if c != t["node"] else 0.7
         vx = ";".join(f"{v:.1f}" for v in xs[i])
         vy = ";".join(f"{v:.1f}" for v in ys[i])
         o.append(f'<circle cx="{xs[i][0]:.1f}" cy="{ys[i][0]:.1f}" r="{r:.1f}" fill="{c}" '
@@ -86,26 +86,24 @@ def constellation(t):
 
 
 def hand(x, y, s=1.0):
-    skin, shade, line = "#f6c193", "#e8ab77", "#22d3ee"
+    skin, shade, line = "#f3bd8d", "#e0a473", "#22d3ee"
     g = [f'<g transform="translate({x},{y}) scale({s})">']
-    for k, (r, dl) in enumerate([(34, 0.0), (44, 0.45)]):
-        g.append(f'<path d="M {r},-22 A {r},{r} 0 0 1 {r},18" fill="none" stroke="{line}" '
-                 f'stroke-width="2.4" stroke-linecap="round" opacity="0">'
-                 f'<animate attributeName="opacity" values="0;0;0.55;0;0" '
-                 f'keyTimes="0;0.05;0.16;0.30;1" dur="4.2s" begin="{dl}s" repeatCount="indefinite"/>'
+    for r, dl in [(40, 0.0), (52, 0.4)]:
+        g.append(f'<path d="M {r},-20 A {r},{r} 0 0 1 {r},20" fill="none" stroke="{line}" '
+                 f'stroke-width="2.6" stroke-linecap="round" opacity="0">'
+                 f'<animate attributeName="opacity" values="0;0;0.6;0;0" '
+                 f'keyTimes="0;0.05;0.15;0.28;1" dur="4.2s" begin="{dl}s" repeatCount="indefinite"/>'
                  f'</path>')
     g.append('<g>')
     g.append('<animateTransform attributeName="transform" type="rotate" '
-             'values="0 0 26;-20 0 26;16 0 26;-20 0 26;16 0 26;0 0 26;0 0 26" '
+             'values="0 0 34;-19 0 34;15 0 34;-19 0 34;15 0 34;0 0 34;0 0 34" '
              'keyTimes="0;0.05;0.10;0.15;0.20;0.26;1" dur="4.2s" repeatCount="indefinite"/>')
-    g.append(f'<rect x="-11" y="6" width="22" height="24" rx="9" fill="{shade}"/>')
-    for fx, fy, h, rot in [(-13.5, -30, 30, -9), (-3.5, -34, 34, -3),
-                           (6.0, -32, 32, 3), (15.0, -25, 25, 9)]:
-        g.append(f'<g transform="rotate({rot} 0 6)">'
-                 f'<rect x="{fx}" y="{fy}" width="9" height="{h+16}" rx="4.5" fill="{skin}"/></g>')
-    g.append(f'<g transform="rotate(-52 -16 4)">'
-             f'<rect x="-25" y="-8" width="9.5" height="24" rx="4.75" fill="{shade}"/></g>')
-    g.append(f'<rect x="-18" y="-8" width="37" height="26" rx="11" fill="{skin}"/>')
+    g.append(f'<rect x="-13" y="24" width="26" height="18" rx="9" fill="{shade}"/>')
+    g.append(f'<g transform="rotate(-48 -18 12)">'
+             f'<rect x="-27" y="0" width="11" height="26" rx="5.5" fill="{shade}"/></g>')
+    for fx, tip in [(-20, -30), (-9, -37), (2, -33), (13, -22)]:
+        g.append(f'<rect x="{fx}" y="{tip}" width="10" height="{10 - tip}" rx="5" fill="{skin}"/>')
+    g.append(f'<rect x="-22" y="-6" width="45" height="36" rx="16" fill="{skin}"/>')
     g.append('</g></g>')
     return "".join(g)
 
@@ -145,7 +143,7 @@ def build(theme):
              f'<animate attributeName="r" values="170;140;170" dur="11s" repeatCount="indefinite"/></circle>')
     o.append(constellation(t))
     o.append(f'<rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="16" fill="none" stroke="{t["ring"]}"/>')
-    o.append(hand(108, 92, 1.25))
+    o.append(hand(106, 84, 1.15))
     for i, ln in enumerate(LINES):
         fill = (ln["fill"].replace("SHINE", "url(#shine)").replace("BODY", t["body"])
                 .replace("MUTE", t["mute"]).replace("FAINT", t["faint"]))
