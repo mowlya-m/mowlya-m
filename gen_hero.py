@@ -119,7 +119,8 @@ def build(theme):
     o.append(f'<radialGradient id="gB"><stop offset="0%" stop-color="{t["a1"]}" stop-opacity="0.14"/>'
              f'<stop offset="100%" stop-color="{t["a1"]}" stop-opacity="0"/></radialGradient>')
     for i, ln in enumerate(LINES):
-        wpx = w_of(ln["txt"], ln["size"]) + 6
+        ls = 1.5 * len(ln["txt"]) if ln.get("anchor") == "end" else 0
+        wpx = w_of(ln["txt"], ln["size"]) + ls + 14
         cx0 = ln["x"] - wpx if ln.get("anchor") == "end" else ln["x"]
         s, d = ln["start"] / CYCLE, ln["dur"] / CYCLE
         o.append(f'<clipPath id="clip{i}"><rect x="{cx0}" y="{ln["y"]-ln["size"]}" '
