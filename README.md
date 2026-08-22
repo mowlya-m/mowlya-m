@@ -27,3 +27,12 @@
 </picture>
 
 <br> <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="32" height="32" align="left" style="margin-right:8px;"> <i><b>I love conneting with different people</b>, so if you want to say <b>hi</b>, I'll be happy to meet you more! :)</i>
+
+<div align="center">
+
+<a href="https://www.linkedin.com/in/mowlya" title="LinkedIn"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="40" height="40" alt="LinkedIn" title="LinkedIn"></a>
+&nbsp;&nbsp;&nbsp;<a href="mailto:mowlyamanjunath@gmail.com" title="Email"><img src="https://cdn.simpleicons.org/gmail/EA4335" width="40" height="40" alt="Email" title="Email"></a>
+&nbsp;&nbsp;&nbsp;<a href="https://mowlya-portfolio.vercel.app" title="Portfolio"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/logo-m-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/logo-m-light.svg"><img src="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/logo-m-dark.svg" width="40" height="40" alt="Portfolio" title="Portfolio"></picture></a>
+&nbsp;&nbsp;&nbsp;<a href="https://github.com/mowlya-m?tab=repositories" title="Repositories"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40" height="40" alt="GitHub" title="GitHub"></a>
+
+</div>
