@@ -18,7 +18,7 @@ LINK = 150
 MONO = "ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
 
 LINES = [
-    dict(txt="Hi there! I'm Mowlya", x=176, y=112, size=34, weight="700",
+    dict(txt="Hiii there! I'm Mowlya", x=176, y=112, size=34, weight="700",
          fill="SHINE", start=0.6, dur=2.0),
     dict(txt="I build data pipelines and ML systems that reach production.",
          x=176, y=148, size=15, weight="400", fill="BODY", start=3.0, dur=2.2),
@@ -62,7 +62,9 @@ def constellation(t):
         vy2 = ";".join(f"{v:.1f}" for v in ys[j])
         o.append(f'<line x1="{xs[i][0]:.1f}" y1="{ys[i][0]:.1f}" x2="{xs[j][0]:.1f}" '
                  f'y2="{ys[j][0]:.1f}" stroke="{t["edge"]}" stroke-opacity="{op:.2f}" '
-                 f'stroke-width="1">'
+                 f'stroke-width="1" stroke-dasharray="5 11" stroke-linecap="round">'
+                 f'<animate attributeName="stroke-dashoffset" values="0;-16" dur="{1.8 + (i % 6) * 0.4:.1f}s" '
+                 f'repeatCount="indefinite"/>'
                  f'<animate attributeName="x1" values="{vx1}" dur="{DRIFT}s" repeatCount="indefinite"/>'
                  f'<animate attributeName="y1" values="{vy1}" dur="{DRIFT}s" repeatCount="indefinite"/>'
                  f'<animate attributeName="x2" values="{vx2}" dur="{DRIFT}s" repeatCount="indefinite"/>'
@@ -85,19 +87,28 @@ def constellation(t):
     return "".join(o)
 
 
-def hand(x, y, s=1.35):
+def hand(x, y, s=1.0):
+    skin, shade, line = "#f6c193", "#e8ab77", "#22d3ee"
     g = [f'<g transform="translate({x},{y}) scale({s})">']
-    g.append('<animateTransform attributeName="transform" type="rotate" additive="sum" '
-             'values="0;-18;15;-18;15;0;0" keyTimes="0;0.04;0.08;0.12;0.16;0.2;1" '
-             'dur="4.5s" repeatCount="indefinite"/>')
-    skin, shade = "#f6c193", "#e8ab77"
-    for i, fx in enumerate([-14.5, -5, 4.5, 14]):
-        h = [24, 27, 26, 21][i]
-        g.append(f'<rect x="{fx}" y="{-h}" width="8.6" height="{h+10}" rx="4.3" fill="{skin}"/>')
-    g.append(f'<g transform="rotate(-42 -17 12)"><rect x="-25" y="2" width="8.6" height="20" rx="4.3" '
-             f'fill="{shade}"/></g>')
-    g.append(f'<rect x="-19" y="4" width="38" height="30" rx="12" fill="{skin}"/>')
-    g.append('</g>')
+    for k, (r, dl) in enumerate([(34, 0.0), (44, 0.45)]):
+        g.append(f'<path d="M {r},-22 A {r},{r} 0 0 1 {r},18" fill="none" stroke="{line}" '
+                 f'stroke-width="2.4" stroke-linecap="round" opacity="0">'
+                 f'<animate attributeName="opacity" values="0;0;0.55;0;0" '
+                 f'keyTimes="0;0.05;0.16;0.30;1" dur="4.2s" begin="{dl}s" repeatCount="indefinite"/>'
+                 f'</path>')
+    g.append('<g>')
+    g.append('<animateTransform attributeName="transform" type="rotate" '
+             'values="0 0 26;-20 0 26;16 0 26;-20 0 26;16 0 26;0 0 26;0 0 26" '
+             'keyTimes="0;0.05;0.10;0.15;0.20;0.26;1" dur="4.2s" repeatCount="indefinite"/>')
+    g.append(f'<rect x="-11" y="6" width="22" height="24" rx="9" fill="{shade}"/>')
+    for fx, fy, h, rot in [(-13.5, -30, 30, -9), (-3.5, -34, 34, -3),
+                           (6.0, -32, 32, 3), (15.0, -25, 25, 9)]:
+        g.append(f'<g transform="rotate({rot} 0 6)">'
+                 f'<rect x="{fx}" y="{fy}" width="9" height="{h+16}" rx="4.5" fill="{skin}"/></g>')
+    g.append(f'<g transform="rotate(-52 -16 4)">'
+             f'<rect x="-25" y="-8" width="9.5" height="24" rx="4.75" fill="{shade}"/></g>')
+    g.append(f'<rect x="-18" y="-8" width="37" height="26" rx="11" fill="{skin}"/>')
+    g.append('</g></g>')
     return "".join(g)
 
 
@@ -136,7 +147,7 @@ def build(theme):
              f'<animate attributeName="r" values="170;140;170" dur="11s" repeatCount="indefinite"/></circle>')
     o.append(constellation(t))
     o.append(f'<rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="16" fill="none" stroke="{t["ring"]}"/>')
-    o.append(hand(104, 98, 1.05))
+    o.append(hand(108, 92, 1.25))
     for i, ln in enumerate(LINES):
         fill = (ln["fill"].replace("SHINE", "url(#shine)").replace("BODY", t["body"])
                 .replace("MUTE", t["mute"]).replace("FAINT", t["faint"]))

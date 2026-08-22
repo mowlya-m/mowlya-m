@@ -1,8 +1,8 @@
 <div align="center">
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/hero-dark.svg?v=12">
-<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/hero-light.svg?v=12">
-<img alt="Hi there, I am Mowlya" src="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/hero-dark.svg?v=12" width="100%">
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/hero-dark.svg?v=13">
+<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/hero-light.svg?v=13">
+<img alt="Hi there, I am Mowlya" src="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/hero-dark.svg?v=13" width="100%">
 </picture>
 <br>
 <img src="https://komarev.com/ghpvc/?username=mowlya-m&style=flat-square&color=22d3ee&label=profile+views">
