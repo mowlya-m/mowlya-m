@@ -9,7 +9,7 @@ THEMES = {
                   a1="#0891b2", a2="#7c3aed", ok="#1a7f37"),
 }
 
-W, H = 1000, 214
+W, H = 1000, 206
 MONO = "ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
 SANS = "Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif"
 
@@ -27,7 +27,7 @@ def esc(s):
 def build(theme):
     t = THEMES[theme]
     o = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" '
-         f'role="img" aria-label="Available for data and machine learning engineering roles">']
+         f'role="img" aria-label="Open to data and machine learning engineering roles">']
     o.append('<defs>')
     o.append(f'<linearGradient id="cbg" x1="0" y1="0" x2="1" y2="1">'
              f'<stop offset="0%" stop-color="{t["bg1"]}"/><stop offset="60%" stop-color="{t["bg2"]}"/>'
@@ -40,36 +40,33 @@ def build(theme):
     o.append(f'<pattern id="cdots" width="24" height="24" patternUnits="userSpaceOnUse">'
              f'<circle cx="1.2" cy="1.2" r="1.2" fill="{t["dot"]}"/></pattern>')
     o.append('</defs>')
-
     o.append(f'<rect width="{W}" height="{H}" rx="16" fill="url(#cbg)"/>')
     o.append(f'<rect width="{W}" height="{H}" rx="16" fill="url(#cdots)" opacity="0.7"/>')
     o.append(f'<rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="16" fill="none" stroke="{t["ring"]}"/>')
     o.append(f'<rect x="16" y="16" width="4" height="{H-32}" rx="2" fill="url(#cshine)"/>')
-
-    o.append(f'<circle cx="52" cy="47" r="6" fill="{t["ok"]}"/>')
-    o.append(f'<circle cx="52" cy="47" r="6" fill="none" stroke="{t["ok"]}" stroke-width="2" opacity="0.9">'
+    o.append(f'<circle cx="52" cy="45" r="6" fill="{t["ok"]}"/>')
+    o.append(f'<circle cx="52" cy="45" r="6" fill="none" stroke="{t["ok"]}" stroke-width="2">'
              f'<animate attributeName="r" values="6;16;16" keyTimes="0;0.7;1" dur="2.4s" '
              f'repeatCount="indefinite"/>'
              f'<animate attributeName="opacity" values="0.75;0;0" keyTimes="0;0.7;1" dur="2.4s" '
              f'repeatCount="indefinite"/></circle>')
-    o.append(f'<text x="70" y="52" font-family="{SANS}" font-size="19" font-weight="600" '
-             f'fill="{t["body"]}">Open to Data and Machine Learning Engineering roles</text>')
-    o.append(f'<text x="70" y="76" font-family="{SANS}" font-size="14" fill="{t["mute"]}">'
-             f'Pipelines, streaming, MLOps and analytics. Happy to talk about a role, a collaboration '
-             f'or a repo you saw here.</text>')
-
+    o.append(f'<text x="70" y="50" font-family="{SANS}" font-size="19" font-weight="600" '
+             f'fill="{t["body"]}">Let\'s build something</text>')
+    o.append(f'<text x="70" y="74" font-family="{SANS}" font-size="14" fill="{t["mute"]}">'
+             f'Open to Data and Machine Learning Engineering roles. I reply to every message, whether '
+             f'it is a role, a collaboration or a question about a repo.</text>')
     px, pw, gap = 52, 292, 14
     for i, (label, value, note) in enumerate(FACTS):
         x = px + i * (pw + gap)
-        o.append(f'<rect x="{x}" y="104" width="{pw}" height="82" rx="10" fill="{t["panel"]}" '
+        o.append(f'<rect x="{x}" y="100" width="{pw}" height="80" rx="10" fill="{t["panel"]}" '
                  f'stroke="{t["ring"]}"/>')
-        o.append(f'<rect x="{x}" y="104" width="3" height="82" rx="1.5" '
+        o.append(f'<rect x="{x}" y="100" width="3" height="80" rx="1.5" '
                  f'fill="{t["a1"] if i % 2 == 0 else t["a2"]}" opacity="0.85"/>')
-        o.append(f'<text x="{x+20}" y="130" font-family="{MONO}" font-size="10.5" letter-spacing="2" '
+        o.append(f'<text x="{x+20}" y="126" font-family="{MONO}" font-size="10.5" letter-spacing="2" '
                  f'fill="{t["faint"]}">{esc(label.upper())}</text>')
-        o.append(f'<text x="{x+20}" y="154" font-family="{SANS}" font-size="15.5" font-weight="600" '
+        o.append(f'<text x="{x+20}" y="150" font-family="{SANS}" font-size="15.5" font-weight="600" '
                  f'fill="{t["body"]}">{esc(value)}</text>')
-        o.append(f'<text x="{x+20}" y="174" font-family="{SANS}" font-size="12" '
+        o.append(f'<text x="{x+20}" y="170" font-family="{SANS}" font-size="12" '
                  f'fill="{t["mute"]}">{esc(note)}</text>')
     o.append('</svg>')
     return "\n".join(o)
