@@ -50,11 +50,9 @@ def constellation(t):
         py.append(by)
         xs.append(px)
         ys.append(py)
-
     edges = [(i, j, math.dist(base[i], base[j]))
              for i in range(NODES) for j in range(i + 1, NODES)
              if math.dist(base[i], base[j]) < LINK]
-
     o = ['<g opacity="0.55">']
     for i, j, d in edges:
         op = max(0.06, 0.34 * (1 - d / LINK))
@@ -138,7 +136,6 @@ def build(theme):
     o.append(constellation(t))
     o.append(f'<rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="16" fill="none" stroke="{t["ring"]}"/>')
     o.append(hand(112, 128))
-
     for i, ln in enumerate(LINES):
         fill = (ln["fill"].replace("SHINE", "url(#shine)").replace("BODY", t["body"])
                 .replace("MUTE", t["mute"]).replace("FAINT", t["faint"]))
@@ -148,7 +145,6 @@ def build(theme):
         o.append(f'<g clip-path="url(#clip{i})"><text x="{ln["x"]}" y="{ln["y"]}" font-family="{MONO}" '
                  f'font-size="{ln["size"]}" font-weight="{ln["weight"]}" font-style="{style}"{sp}{an} '
                  f'fill="{fill}">{esc(ln["txt"])}</text></g>')
-
     o.append('</svg>')
     return "\n".join(o)
 
