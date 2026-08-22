@@ -69,12 +69,6 @@
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/contact-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/contact-light.svg">
-  <img alt="Open to Data and Machine Learning Engineering roles" src="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/contact-dark.svg" width="100%">
-</picture>
-
 <a href="https://www.linkedin.com/in/mowlya"><img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2&labelColor=0d1117"></a>
 &nbsp;
 <a href="mailto:mowlyamanjunath@gmail.com"><img src="https://img.shields.io/badge/Email%20me-0d1117?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=0d1117"></a>
