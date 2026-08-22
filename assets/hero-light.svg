@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 268" width="1000" height="268" role="img" aria-label="Hi, I am Mowlya. I build data pipelines and ML systems.">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#ffffff"/><stop offset="55%" stop-color="#f6f8fa"/><stop offset="100%" stop-color="#ffffff"/></linearGradient>
+<linearGradient id="shine" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#0891b2"/><stop offset="50%" stop-color="#7c3aed"/><stop offset="100%" stop-color="#0891b2"/><animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0;-1 0" dur="9s" repeatCount="indefinite"/></linearGradient>
+<radialGradient id="glow"><stop offset="0%" stop-color="#7c3aed" stop-opacity="0.17"/><stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/></radialGradient>
+<radialGradient id="glow2"><stop offset="0%" stop-color="#0891b2" stop-opacity="0.15"/><stop offset="100%" stop-color="#0891b2" stop-opacity="0"/></radialGradient>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1.2" cy="1.2" r="1.2" fill="#e4e8ed"/></pattern>
+<clipPath id="clip0"><rect x="70" y="68" height="66.0" width="0"><animate attributeName="width" values="0;0;429;429;0;0" keyTimes="0;0.0375;0.1625;0.94;0.965;1" dur="16.0s" repeatCount="indefinite"/></rect></clipPath>
+<clipPath id="clip1"><rect x="70" y="143" height="25.5" width="0"><animate attributeName="width" values="0;0;619;619;0;0" keyTimes="0;0.1875;0.3250;0.94;0.965;1" dur="16.0s" repeatCount="indefinite"/></rect></clipPath>
+<clipPath id="clip2"><rect x="70" y="190" height="24.0" width="0"><animate attributeName="width" values="0;0;573;573;0;0" keyTimes="0;0.3625;0.5250;0.94;0.965;1" dur="16.0s" repeatCount="indefinite"/></rect></clipPath>
+</defs>
+<rect width="1000" height="268" rx="14" fill="url(#bg)"/>
+<rect width="1000" height="268" rx="14" fill="url(#dots)" opacity="0.75"/>
+<circle cx="880" cy="72" r="200" fill="url(#glow)"><animate attributeName="r" values="175;215;175" dur="11s" repeatCount="indefinite"/></circle>
+<circle cx="120" cy="250" r="180" fill="url(#glow2)"><animate attributeName="r" values="200;160;200" dur="11s" repeatCount="indefinite"/></circle>
+<rect x="0.5" y="0.5" width="999" height="267" rx="14" fill="none" stroke="#d8dee4"/>
+<circle cx="70" cy="46" r="5" fill="#0891b2" opacity="0.55"/>
+<circle cx="88" cy="46" r="5" fill="#7c3aed" opacity="0.55"/>
+<circle cx="106" cy="46" r="5" fill="#6e7781" opacity="0.55"/>
+<text x="138" y="51" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" letter-spacing="1.6" fill="#6e7781">mowlya-m . profile</text>
+<g clip-path="url(#clip0)"><text x="70" y="112" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="44" font-weight="700" font-style="normal" fill="url(#shine)">Hiii, I'm Mowlya</text></g>
+<g clip-path="url(#clip1)"><text x="70" y="160" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="17" font-weight="400" font-style="normal" fill="#1f2328">I build data pipelines and ML systems that reach production.</text></g>
+<g clip-path="url(#clip2)"><text x="70" y="206" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="16" font-weight="400" font-style="italic" fill="#6e7781">"I have no special talent. I am only passionately curious."</text></g>
+<rect x="70" y="71" width="24" height="42" fill="#0891b2" opacity="0"><animate attributeName="x" values="70;493" keyTimes="0.0375;0.1625" dur="16.0s" repeatCount="indefinite" calcMode="linear"/><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.0375;0.0381;0.1719;0.1759;1" dur="16.0s" repeatCount="indefinite"/></rect>
+<rect x="70" y="146" width="9" height="16" fill="#0891b2" opacity="0"><animate attributeName="x" values="70;683" keyTimes="0.1875;0.3250" dur="16.0s" repeatCount="indefinite" calcMode="linear"/><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.1875;0.1881;0.3469;0.3509;1" dur="16.0s" repeatCount="indefinite"/></rect>
+<rect x="70" y="193" width="9" height="15" fill="#0891b2" opacity="0"><animate attributeName="x" values="70;637" keyTimes="0.3625;0.5250" dur="16.0s" repeatCount="indefinite" calcMode="linear"/><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.3625;0.3631;0.9990;0.9995;1" dur="16.0s" repeatCount="indefinite"/></rect>
+<text x="70" y="234" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" letter-spacing="2" fill="#6e7781" opacity="0">- Albert Einstein<animate attributeName="opacity" values="0;0;0.9;0.9;0" keyTimes="0;0.535;0.575;0.94;0.96" dur="16.0s" repeatCount="indefinite"/></text>
+</svg>

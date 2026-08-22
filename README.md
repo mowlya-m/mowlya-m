@@ -1,9 +1,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/header-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/header-light.svg">
-  <img alt="Mowlya Shree Manjunatha, Data and Machine Learning Engineer" src="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/header-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/hero-light.svg">
+  <img alt="Hi, I am Mowlya. I build data pipelines and ML systems." src="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/hero-dark.svg" width="100%">
 </picture>
 
 <img src="https://komarev.com/ghpvc/?username=mowlya-m&style=flat-square&color=22d3ee&label=profile+views">
@@ -53,9 +53,13 @@
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/plotly/plotly-original.svg" width="40" height="40" alt="Plotly" title="Plotly">&nbsp;&nbsp;
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" width="40" height="40" alt="Postman" title="Postman">
 
-## Most Used Languages
+<br><br>
 
-<img src="https://mowlya-github-stats.vercel.app/api/top-langs/?username=mowlya-m&layout=compact&langs_count=10&hide_border=true&border_radius=10&bg_color=00000000&title_color=22d3ee&text_color=808080&cache_seconds=21600" width="420" alt="Most used languages">
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/langs-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/langs-light.svg">
+  <img alt="Most used languages" src="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/langs-dark.svg" width="620">
+</picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/divider-dark.svg">
