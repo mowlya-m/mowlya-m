@@ -32,7 +32,6 @@
 
 <a href="https://www.linkedin.com/in/mowlya" title="LinkedIn"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="40" height="40" alt="LinkedIn" title="LinkedIn"></a>
 &nbsp;&nbsp;&nbsp;<a href="mailto:mowlyamanjunath@gmail.com" title="Email"><img src="https://cdn.simpleicons.org/gmail/EA4335" width="40" height="40" alt="Email" title="Email"></a>
-&nbsp;&nbsp;&nbsp;<a href="https://mowlya-portfolio.vercel.app" title="Portfolio"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/logo-m-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/logo-m-light.svg"><img src="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/logo-m-dark.svg" width="40" height="40" alt="Portfolio" title="Portfolio"></picture></a>
-&nbsp;&nbsp;&nbsp;<a href="https://github.com/mowlya-m?tab=repositories" title="Repositories"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/github/ffffff"><source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/github/181717"><img src="https://cdn.simpleicons.org/github/ffffff" width="40" height="40" alt="GitHub" title="GitHub"></picture></a>
+&nbsp;&nbsp;&nbsp;<a href="https://x.com/Mowlya3" title="X"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/x/ffffff"><source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/x/000000"><img src="https://cdn.simpleicons.org/x/ffffff" width="40" height="40" alt="X" title="X"></picture></a>
 
 </div>
