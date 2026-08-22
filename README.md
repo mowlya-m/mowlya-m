@@ -1,8 +1,8 @@
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/hero-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/hero-light.svg">
-  <img alt="Hi there, I am Mowlya" src="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/hero-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/hero-dark.svg?v=4">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/hero-light.svg?v=4">
+  <img alt="Hi there, I am Mowlya" src="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/hero-dark.svg?v=4" width="100%">
 </picture>
 <br>
 <img src="https://komarev.com/ghpvc/?username=mowlya-m&style=flat-square&color=22d3ee&label=profile+views">
@@ -33,6 +33,6 @@
 <a href="https://www.linkedin.com/in/mowlya" title="LinkedIn"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="40" height="40" alt="LinkedIn" title="LinkedIn"></a>
 &nbsp;&nbsp;&nbsp;<a href="mailto:mowlyamanjunath@gmail.com" title="Email"><img src="https://cdn.simpleicons.org/gmail/EA4335" width="40" height="40" alt="Email" title="Email"></a>
 &nbsp;&nbsp;&nbsp;<a href="https://mowlya-portfolio.vercel.app" title="Portfolio"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/logo-m-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/logo-m-light.svg"><img src="https://raw.githubusercontent.com/mowlya-m/mowlya-m/main/assets/logo-m-dark.svg" width="40" height="40" alt="Portfolio" title="Portfolio"></picture></a>
-&nbsp;&nbsp;&nbsp;<a href="https://github.com/mowlya-m?tab=repositories" title="Repositories"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40" height="40" alt="GitHub" title="GitHub"></a>
+&nbsp;&nbsp;&nbsp;<a href="https://github.com/mowlya-m?tab=repositories" title="Repositories"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/github/ffffff"><source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/github/181717"><img src="https://cdn.simpleicons.org/github/ffffff" width="40" height="40" alt="GitHub" title="GitHub"></picture></a>
 
 </div>

@@ -156,7 +156,7 @@ def build(theme):
         hold = 0.999 if idx == len(car) - 1 else (car[idx + 1][0] - 0.25) / CYCLE
         o.append(f'<rect x="{x}" y="{y-size+3}" width="{max(8,size*0.55):.0f}" height="{size*0.95:.0f}" '
                  f'fill="{t["a1"]}" opacity="0">'
-                 f'<animate attributeName="x" values="{x};{x+tw:.0f}" keyTimes="{s/CYCLE:.4f};{e/CYCLE:.4f}" '
+                 f'<animate attributeName="x" values="{x};{x};{x+tw:.0f};{x+tw:.0f}" keyTimes="0;{s/CYCLE:.4f};{e/CYCLE:.4f};1" '
                  f'dur="{CYCLE}s" repeatCount="indefinite" calcMode="linear"/>'
                  f'<animate attributeName="opacity" values="0;0;1;1;0;0" '
                  f'keyTimes="0;{s/CYCLE:.4f};{(s+0.01)/CYCLE:.4f};{hold:.4f};{min(hold+0.004,0.9995):.4f};1" '
